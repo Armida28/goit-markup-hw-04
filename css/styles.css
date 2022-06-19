@@ -65,14 +65,14 @@ section {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
   margin: 0;
 }
-.header-contacts-list .link {
+.header-contacts-list .link.decor {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #757575;
   padding: 32px 0;
 }
 
@@ -110,7 +110,14 @@ section {
   letter-spacing: 0.02em;
 }
 
-.header-contacts-list .link:hover {
+.link.decor:hover,
+.link.decor:focus {
+  fill: #2196f3;
+}
+.contact-icon {
+  margin-right: 10px;
+}
+ .header-contacts-list .link:hover {
   color: #2196f3;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -118,6 +125,7 @@ section {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  bg: #2196f3;
 }
 
 .webstudio-link-h {
@@ -322,6 +330,7 @@ section {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
 }
 
 .team-about {
@@ -425,7 +434,6 @@ section {
 
 .decoration:hover,
 .decoration:focus {
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -526,7 +534,6 @@ section {
 
 .social-link-f:hover,
 .social-link-f:focus {
-  fill: #ffffff;
   background-color: #2196f3;
 }
 .item-f:not(:last-child) {
@@ -535,13 +542,6 @@ section {
 
 /*---icons---*/
 
-.contact-icon {
-  margin-right: 10px;
-  fill: #757575;
-}
-.contact-icon:hover {
-  fill: #2196f3;
-}
 
 .icon-thumb {
   display: flex;
@@ -557,9 +557,10 @@ section {
 .icon-social {
   display: flex;
   justify-content: center;
+  
 }
 
-.icon-social:not(:last-child) {
+.item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -580,12 +581,12 @@ section {
 
 /*----Клиенты---*/
 
-.client-item {
+.link-cl{
   display: flex;
-  padding: 16px 32px;
   color: #afb1b8;
   outline: 1px solid #afb1b8;
   border-radius: 4px;
+  
 }
 .client-item:hover,
 .client-item:focus {
@@ -595,11 +596,13 @@ section {
 
 .icon-cl {
   fill: #afb1b8;
-}
+  padding: 16px 32px}
 
 .icon-cl:hover,
 .icon-cl:focus {
   fill: #2196f3;
+  outline: 1px solid #2196f3;
+  border-radius: 4px;
 }
 .client-item:not(:last-child) {
   margin-right: 30px;
@@ -607,7 +610,6 @@ section {
 .client-items {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
 }
 .client-title {
   font-family: "Roboto", sans-serif;
@@ -617,4 +619,5 @@ section {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
