@@ -117,7 +117,7 @@ section {
 .contact-icon {
   margin-right: 10px;
 }
- .header-contacts-list .link:hover {
+.header-contacts-list .link:hover {
   color: #2196f3;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -393,7 +393,7 @@ section {
   background-color: rgba(33, 150, 243, 1);
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-  0px 2px 2px rgba(0, 0, 0, 0.12);
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio {
@@ -542,7 +542,6 @@ section {
 
 /*---icons---*/
 
-
 .icon-thumb {
   display: flex;
   height: 120px;
@@ -557,7 +556,6 @@ section {
 .icon-social {
   display: flex;
   justify-content: center;
-  
 }
 
 .item:not(:last-child) {
@@ -581,12 +579,11 @@ section {
 
 /*----Клиенты---*/
 
-.link-cl{
+.link-cl {
   display: flex;
   color: #afb1b8;
   outline: 1px solid #afb1b8;
   border-radius: 4px;
-  
 }
 .client-item:hover,
 .client-item:focus {
@@ -596,7 +593,8 @@ section {
 
 .icon-cl {
   fill: #afb1b8;
-  padding: 16px 32px}
+  padding: 16px 32px;
+}
 
 .icon-cl:hover,
 .icon-cl:focus {
