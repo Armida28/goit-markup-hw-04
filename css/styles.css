@@ -116,6 +116,7 @@ section {
 }
 .contact-icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 .header-contacts-list .link:hover {
   color: #2196f3;
@@ -125,7 +126,7 @@ section {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  bg: #2196f3;
+  
 }
 
 .webstudio-link-h {
@@ -584,24 +585,25 @@ section {
   color: #afb1b8;
   outline: 1px solid #afb1b8;
   border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+  fill: #AFB1B8;
 }
-.client-item:hover,
-.client-item:focus {
+.link-cl:hover,
+.link-cl:focus {
   outline: 1px solid #2196f3;
   border-radius: 4px;
+fill: currentColor;
 }
 
 .icon-cl {
-  fill: #afb1b8;
-  padding: 16px 32px;
+ color: #2196f3 ;
+display: flex;
 }
 
-.icon-cl:hover,
-.icon-cl:focus {
-  fill: #2196f3;
-  outline: 1px solid #2196f3;
-  border-radius: 4px;
-}
+
 .client-item:not(:last-child) {
   margin-right: 30px;
 }
